@@ -1,0 +1,63 @@
+Wound Care Center Progress Note
+Patient Name: @NAME@
+Date of Service: @TODAYDATENR@
+PCP: @PCP@
+
+ Subjective:
+
+CC: @AGE@ @SEX@ with a {wccwoundtype:24971} {wccwoundlocation:25237} wound(s) who was seen in follow-up at the John Muir Wound Care Clinic today.
+
+Interval history:  Dressing changes are being performed according to our instructions.  ***
+
+Review of past family and social history with the patient revealed no changes; all other areas were reviewed and no changes noted.
+
+ROS: All other systems reviewed and negative except as noted above.
+
+ Objective:
+
+@OBJECTIVEBEGIN@
+
+@FLOW(6)@, @FLOW(7)@, @FLOW(5)@, @FLOW(8)@, @FLOW(9)@, @FLOW(10)@, @FLOW(14)@, @FLOW(301070)@
+
+Physical Exam:
+
+GEN: NAD, non-toxic looks well and appears {Blank single:19197::"malnourished.", "well nourished."}
+EYES: conjunctiva wnl, anicteric, no visible conjunctival injection
+HENT: NCAT, hearing intact, no drooling, MMM
+NECK: Supple, no meningismus, full range of motion without pain
+RESP: normal effort, no stridor, no nasal flaring, no retractions, no accessory muscle use
+CV: *** peripheral edema, well perfused
+GI: non-distended
+MUSC: no extremity deformity or focal swelling
+SKIN: well hydrated, no rash, no visible pallor, cyanosis, or diaphoresis
+NEURO: awake, alert and oriented, moving all extremities, appropriately conversant and follows commands
+PSYCH: appropriate mood and affect
+
+@LDA(16)@
+
+The details of today's procedure are located in the Wound Care Assessment flow sheet. Timeout was performed prior to any procedures with the RN detailing identity of patient, laterality and location of the wound.
+
+Labs:
+@RESULTRCNT(24H)@
+
+@LABBRIEF(hgba1c,prealbumin,albumin,crp,sedrate)@
+@LABRSLT(CULTURE)@
+
+Imaging:
+@RISRSLTIMP1D@
+
+@OBJECTIVEEND@
+
+ Assessment / Plan:
+
+@AGE@ @SEX@ with {wccwoundtype:24971} {wccwoundlocation:25237} wound(s) that is/are {Blank single:19197::"improving","worsening","stable"}.
+
+@DIAGMEDR@
+
+Wound care instructions:
+
+@PATINSTR@
+
+Electronically signed by:
+
+@MECREDNR@
