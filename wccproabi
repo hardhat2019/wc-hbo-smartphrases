@@ -1,0 +1,16 @@
+MEASUREMENTS:
+Digital Ankle Brachial Indices:
+@FLOW(21000009536::Last)@
+@FLOW(21000009537::Last)@
+
+PHYSICIAN INTERPRETATION:
+Left Leg:
+{MESIinterpretation:26384}
+Right Leg:
+{MESIinterpretation:26384}
+
+Interpreted by: @MECRED@
+
+~~~~~The MESI ABPI MD measurement of the Ankle-Brachial Pressure Index was utilized.  Three cuff measurement is provided to allow safe simultaneous measurement of Ankle-Brachial Pressure Index. The cuffs are placed on one arm and the left and right ankles.  MESI ABPI MD utilizes a unique  "simultaneous measurement", where the cuffs are positioned on three limbs at the same time. The cuffs inflate and deflate simultaneously, in order to capture the blood pressure in all extremities in a specific moment. Simultaneous measurement is essential for accuracy of the ABPI, because it eliminates the measurement error due to the natural change in human blood pressure. ~~~~~
+
+~~~~~~~Interpretation scale has been taken from the "Guidelines for the Management of Patients With Peripheral Artery Disease" published by the Journal of American College of Cardiology ~~~~~~~
