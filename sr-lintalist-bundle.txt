@@ -1,0 +1,215 @@
+BundleFormat: 1
+Name: Default
+Description: Default bundle for Lintalist
+Author: Lintalist
+TitleMatch:
+Patterns:
+- LLPart1: selective debridement
+  LLPart2:
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: GEN: NAD, looks well
+EYES: conjunctiva wnl, anicteric, EOMI
+HENT: NCAT, moist mucous membranes
+NECK: Supple, full range of motion without pain
+RESP: normal effort, no stridor
+CV: no peripheral edema, well perfused
+GI: non-distended
+MUSC: no extremity deformity or focal swelling
+SKIN: well hydrated, no rash
+NEURO: alert and oriented, normal speech, no focal findings or movement disorder noted, moving all extremities
+  LLPart2:
+  LLKey:
+  LLShorthand: peadultlimited
+  LLScript:
+- LLPart1: [[DateTime=MM/dd/yy]]
+  LLPart2:
+  LLKey:
+  LLShorthand: td
+  LLScript:
+- LLPart1: subQ debridement
+  LLPart2: No debridement
+  LLKey:
+  LLShorthand: sq
+  LLScript:
+- LLPart1: cellulose/collagen/silver (prisma)
+  LLPart2:
+  LLKey:
+  LLShorthand: prisma
+  LLScript:
+- LLPart1: methylene blue/ gentian violet in PVA foam (hydrofera blue)
+  LLPart2:
+  LLKey:
+  LLShorthand: hfb
+  LLScript:
+- LLPart1: Post-Placement neurovascular exam for compression wrap:
+Normal cap refill for age
+Intact to sensation and motor distally
+  LLPart2:
+  LLKey:
+  LLShorthand: compressioncheck
+  LLScript:
+- LLPart1: Established Patient: Total time spent on the date of the encounter including non-face-to-face activities that were not reported separately such as independent review of tests, referring and communicating with other health care professionals, obtaining and/or reviewing separately obtained history, counseling/educating the patient/family/caregiver, ordering medications/tests/procedures, and documenting in the EHR was [[Choice=?!establishedtimeintervals|10-19|20-29|30-39|40-54|55-69|70-84]] minutes, specifically [[Input=# of minutes]] minutes.
+  LLPart2:
+  LLKey:
+  LLShorthand: doctimeestablished
+  LLScript:
+- LLPart1: 3x/week (once @ wound care center, twice @ home) and as needed
+Mon, Weds, Fri
+  LLPart2: 3x/week (once @ wound care center, twice @ home) and as needed
+Tues, Thurs, Sat
+  LLKey:
+  LLShorthand: dcfreq3x
+  LLScript:
+- LLPart1: Women - 60-90 grams of protein per day
+
+
+Take Zinc 50mg daily with food for the 1st 2 weeks of each month
+(taking for >2 weeks can lead to copper deficiency)
+Take Vitamin C 500mg 2x daily
+  LLPart2: Men - 90-115 grams of protein per day
+
+Take Zinc 50mg daily with food for the 1st 2 weeks of each month
+(taking for >2 weeks can lead to copper deficiency)
+Take Vitamin C 500mg 2x daily
+  LLKey:
+  LLShorthand: wccnutrition
+  LLScript:
+- LLPart1: New Patient: Total time spent on the date of the encounter including non-face-to-face activities that were not reported separately such as independent review of tests, referring and communicating with other health care professionals, obtaining and/or reviewing separately obtained history, counseling/educating the patient/family/caregiver, ordering medications/tests/procedures, and documenting in the EHR was [[Choice=?!newtimeintervals|15-29|30-44|45-59|60-74|75-89|90-104]] minutes, specifically [[Input=# of minutes]] minutes.
+  LLPart2:
+  LLKey:
+  LLShorthand: doctimenew
+  LLScript:
+- LLPart1: iodosorb (cadexomer iodine)
+  LLPart2:
+  LLKey:
+  LLShorthand: iodosorb
+  LLScript:
+- LLPart1: MIPS #431 Preventative Care and Screening: Unhealthy Alcohol Use – Screening
+
+Single Question Screening: Patient has not had >5 drinks (men) or >4 (women or
+older than 65) in a day within the last year (not identified as an unhealthy alcohol
+user
+  LLPart2: MIPS #431 Preventative Care and Screening: Unhealthy Alcohol Use – Screening
+
+Single Question Screening: Patient has had >5 drinks (men) or >4 (women or older
+than 65) in a day within the last year (identified as an unhealthy alcohol user) and
+was provided brief counseling re: unhealthy alcohol use.
+  LLKey:
+  LLShorthand: mips431
+  LLScript:
+- LLPart1: MIPS #226 Preventative Care and Screening: Tobacco Use: Screening and Cessation Interventions
+
+Patient was screened and does not use tobacco.
+  LLPart2: MIPS #226 Preventative Care and Screening: Tobacco Use: Screening and Cessation Interventions
+
+Patient was screened for tobacco use. Patient identified as a tobacco user and
+provided brief counseling and/or pharmacotherapy
+  LLKey:
+  LLShorthand: mips226
+  LLScript:
+- LLPart1: MIPS #130 Documentation of Current Medications in the Medical Record
+
+Current medication list was reviewed, updated, or obtained using all immediate
+resources available on the date of the encounter
+  LLPart2: Patient is in an urgent or emergent medical situation where time is of the essence
+and to delay treatment would jeopardize the patient’s health status on the date
+of the encounter
+  LLKey:
+  LLShorthand: mips130
+  LLScript:
+- LLPart1: MIPS #128 Preventative Care and Screening: Body Mass Index (BMI) Screening and Follow-Up
+
+BMI is normal (> 18.5 and < 25): no follow-up plan required
+  LLPart2: MIPS #128 Preventative Care and Screening: Body Mass Index (BMI) Screening and Follow-Up
+
+• BMI is out of range – no follow-up plan documented due to medical reason (The
+patient is elderly (65 or older) and weight reduction or gain would complicate
+other underlying health conditions such as illness or physical disability, mental
+illness, dementia, confusion, or nutritional deficiencies, or urgent/emergent
+medical situations where time is of the essence & to delay treatment would
+jeopardize the patient’s health status)
+  LLKey:
+  LLShorthand: mips128
+  LLScript:
+- LLPart1: MIPS #317 Preventive Care and Screening: Screening for High Blood Pressure and Follow-Up Documented
+
+Excluded - Patient has a known, active diagnosis of hypertension prior to the
+current encounter
+  LLPart2: MIPS #317 Preventive Care and Screening: Screening for High Blood Pressure and Follow-Up Documented
+
+BP was > 120/80 (elevated/hypertensive) - and was referred to their PCP
+  LLKey:
+  LLShorthand: mips317
+  LLScript:
+- LLPart1: MIPS #47 Advance Care Plan
+
+Patient has an advance care plan or surrogate decision maker documented in the
+chart
+  LLPart2: MIPS #47 Advance Care Plan
+
+Patient is not ≥ 65 and advanced care planning was not discussed.
+  LLKey:
+  LLShorthand: mips47
+  LLScript:
+- LLPart1: This is a patient who is new to me or has not been seen by me in the last 3 years
+  LLPart2:
+  LLKey:
+  LLShorthand: hpvspn
+  LLScript:
+- LLPart1: Strategies to keep the area healed were reviewed with the patient.
+Patient knows to call us if area reopens.
+Patient will follow up [[Choice=?!followupplan|as needed|in 1 month to be sure area remains healed]]
+  LLPart2:
+  LLKey:
+  LLShorthand: mdmdcplan
+  LLScript:
+- LLPart1: [[Choice=?!peedema|1+ (2mm or less)|2+ (2-4 mm)|3+ (4-6 mm)|4+ (6-8mm)]]
+  LLPart2:
+  LLKey:
+  LLShorthand: peedema
+  LLScript:
+
+- LLPart1: no contraindications for HBO
+
+no prior cardiac problems CHF, cardiomyopathy
+
+no lung or pneumothorax problems
+
+no breathing problems or SOB, no COPD
+
+[[Choice=?!history of chemotherapy|No|Yes]]
+
+no Antabuse
+
+no recent sinus problems
+
+no problems clearing ears from altitude changes
+
+hypertension controlled with meds.
+
+no history of seizures
+
+no claustrophobia or anxiety
+
+diabetes is controlled with 3 meds, Hgb A1c 6.4
+
+has dental implants, no recent fillings.
+
+no implanted devices, no pacemakers
+
+has titanium implants in both ankles from prior surgery
+
+no insulin pumps no radiation history
+
+no transdermal patches
+
+no changes in vision, wears glasses, has some cataracts
+
+No need for special positioning.
+
+  LLPart2:
+  LLKey:
+  LLShorthand: hbocontraindications
+  LLScript:
