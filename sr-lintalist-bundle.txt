@@ -4,10 +4,10 @@ Description: Default bundle for Lintalist
 Author: Lintalist
 TitleMatch:
 Patterns:
-- LLPart1: selective debridement
+- LLPart1: cellulose/collagen/silver (prisma)
   LLPart2:
   LLKey:
-  LLShorthand:
+  LLShorthand: prisma
   LLScript:
 - LLPart1: GEN: NAD, looks well
 EYES: conjunctiva wnl, anicteric, EOMI
@@ -23,44 +23,75 @@ NEURO: alert and oriented, normal speech, no focal findings or movement disorder
   LLKey:
   LLShorthand: peadultlimited
   LLScript:
-- LLPart1: [[DateTime=MM/dd/yy]]
+- LLPart1: methylene blue/ gentian violet in PVA foam (hydrofera blue)
   LLPart2:
   LLKey:
-  LLShorthand: td
+  LLShorthand: hfb
   LLScript:
 - LLPart1: subQ debridement
   LLPart2: No debridement
   LLKey:
   LLShorthand: sq
   LLScript:
-- LLPart1: cellulose/collagen/silver (prisma)
+- LLPart1: Skin Biopsy Procedure Note:
+
+Pre-Op: ***
+Post-op Diagnosis: Same
+Procedure: Skin Biopsy
+
+The area surrounding the skin lesion was prepped and draped in the usual sterile manner. The lesion was removed in the usual manner by the biopsy method noted above
+Hemostasis was ssured. The patient tolerated the procedure well.
+
+Closure:
+
+Follow up: The patient tolerated the procedure well w/o complications. Standard post-prcoedure care is explained and return precautions are given.
   LLPart2:
   LLKey:
-  LLShorthand: prisma
+  LLShorthand:
   LLScript:
-- LLPart1: methylene blue/ gentian violet in PVA foam (hydrofera blue)
+- LLPart1: [[DateTime=MM/dd/yy]]
   LLPart2:
   LLKey:
-  LLShorthand: hfb
+  LLShorthand: td
+  LLScript:
+- LLPart1: Skin Tear Prevention: Emollient therapy is a vital part of skincare in patients with aged skin. Use of emollients promotes general skin health and twice-daily application has been proven to reduce incidence of skin tears by 50% (Carville et al, 2014).
+
+Emollient products are available as moisturisers (creams, ointments and lotions), bath oils, gels and soap substitutes (NICE, 2015). Simple emollients work by ‘trapping’ moisture into the skin and reducing water loss by evaporation, whereas emollients that include additional substances known as humectants (e.g. urea) work in a different way by actively drawing water from the dermis to the epidermis and compensating for the reduced levels of natural moisturisers in the skin (Wounds UK, 2015).
+
+Options include:
+CeraVe Moisturizing Cream
+Vanicream Moisturizing Cream
+Aveeno Daily Moisturizing Lotion
+Aveeno Skin Relief Moisture Repair Cream
+Vaseline
+Aquaphor
+
+Use a gentle soap when showering with warm (NOT HOT) water
+Dove Senisitive skin Bar
+  LLPart2:
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: Strategies to keep the area healed were reviewed with the patient.
+Patient knows to call us if area reopens.
+Patient will follow up [[Choice=?!followupplan|as needed|in 1 month to be sure area remains healed]]
+  LLPart2:
+  LLKey:
+  LLShorthand: mdmdcplan
   LLScript:
 - LLPart1: Post-Placement neurovascular exam for compression wrap:
 Normal cap refill for age
 Intact to sensation and motor distally
   LLPart2:
   LLKey:
-  LLShorthand: compressioncheck
+  LLShorthand: nvi
   LLScript:
-- LLPart1: Established Patient: Total time spent on the date of the encounter including non-face-to-face activities that were not reported separately such as independent review of tests, referring and communicating with other health care professionals, obtaining and/or reviewing separately obtained history, counseling/educating the patient/family/caregiver, ordering medications/tests/procedures, and documenting in the EHR was [[Choice=?!establishedtimeintervals|10-19|20-29|30-39|40-54|55-69|70-84]] minutes, specifically [[Input=# of minutes]] minutes.
+- LLPart1: Hot Sitz Bath (as hot as you can manage) 2x/day for 15 minutes
+
+Gently pack the wound with a wet-to-dry dressing (kerlex or 4x4 squeezed out) afterwards then cover with a sanitary pad.
   LLPart2:
   LLKey:
-  LLShorthand: doctimeestablished
-  LLScript:
-- LLPart1: 3x/week (once @ wound care center, twice @ home) and as needed
-Mon, Weds, Fri
-  LLPart2: 3x/week (once @ wound care center, twice @ home) and as needed
-Tues, Thurs, Sat
-  LLKey:
-  LLShorthand: dcfreq3x
+  LLShorthand:
   LLScript:
 - LLPart1: Women - 60-90 grams of protein per day
 
@@ -76,10 +107,63 @@ Take Vitamin C 500mg 2x daily
   LLKey:
   LLShorthand: wccnutrition
   LLScript:
+- LLPart1: selective debridement
+  LLPart2:
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: HBO contraindications List:
+
+Absolute Contraindications:
+
+Use of chemotherapy agents (doxorubicin, cis-platinum, bleomycin): [[Choice=?!Use of (doxorubicin, cis-platinum, bleomycin)|No|Yes]]
+Use of disulfiram (antabuse): [[Choice=?!Use of disulfiram (antabuse)|No|Yes]]
+Use of mafenide acetate (sulfamylon) ointment: [[Choice=?!Use of mafenide acetate (sulfamylon) ointment|No|Yes]]
+Use of amiodarone: [[Choice=?!Use of amiodarone|No|Yes]]
+Untreated pneumothorax: [[Choice=?!Untreated pneumothorax|No|Yes]]
+Untreated lung malignancy or metastatic lung malignancy: [[Choice=?!lung malignancy or metastatic lung malignancy|No|Yes]]
+
+Relative Contraindications
+no prior cardiac problems CHF, cardiomyopathy
+no breathing problems or SOB, no COPD
+no recent sinus problems
+no problems clearing ears from altitude changes
+hypertension controlled with meds.
+no history of seizures
+no claustrophobia or anxiety
+diabetes is controlled with 3 meds, Hgb A1c 6.4
+has dental implants, no recent fillings.
+no implanted devices, no pacemakers
+has titanium implants in both ankles from prior surgery
+no insulin pumps no radiation history
+no transdermal patches
+no changes in vision, wears glasses, has some cataracts
+No need for special positioning.
+  LLPart2:
+  LLKey:
+  LLShorthand: hbocontraindications
+  LLScript:
 - LLPart1: New Patient: Total time spent on the date of the encounter including non-face-to-face activities that were not reported separately such as independent review of tests, referring and communicating with other health care professionals, obtaining and/or reviewing separately obtained history, counseling/educating the patient/family/caregiver, ordering medications/tests/procedures, and documenting in the EHR was [[Choice=?!newtimeintervals|15-29|30-44|45-59|60-74|75-89|90-104]] minutes, specifically [[Input=# of minutes]] minutes.
   LLPart2:
   LLKey:
   LLShorthand: doctimenew
+  LLScript:
+- LLPart1: Established Patient: Total time spent on the date of the encounter including non-face-to-face activities that were not reported separately such as independent review of tests, referring and communicating with other health care professionals, obtaining and/or reviewing separately obtained history, counseling/educating the patient/family/caregiver, ordering medications/tests/procedures, and documenting in the EHR was [[Choice=?!establishedtimeintervals|10-19|20-29|30-39|40-54|55-69|70-84]] minutes, specifically [[Input=# of minutes]] minutes.
+  LLPart2:
+  LLKey:
+  LLShorthand: doctimeestablished
+  LLScript:
+- LLPart1: selective debridement
+  LLPart2:
+  LLKey:
+  LLShorthand:
+  LLScript:
+- LLPart1: 3x/week (once @ wound care center, twice @ home) and as needed
+Mon, Weds, Fri
+  LLPart2: 3x/week (once @ wound care center, twice @ home) and as needed
+Tues, Thurs, Sat
+  LLKey:
+  LLShorthand: dcfreq3x
   LLScript:
 - LLPart1: iodosorb (cadexomer iodine)
   LLPart2:
@@ -158,58 +242,8 @@ Patient is not ≥ 65 and advanced care planning was not discussed.
   LLKey:
   LLShorthand: hpvspn
   LLScript:
-- LLPart1: Strategies to keep the area healed were reviewed with the patient.
-Patient knows to call us if area reopens.
-Patient will follow up [[Choice=?!followupplan|as needed|in 1 month to be sure area remains healed]]
-  LLPart2:
-  LLKey:
-  LLShorthand: mdmdcplan
-  LLScript:
 - LLPart1: [[Choice=?!peedema|1+ (2mm or less)|2+ (2-4 mm)|3+ (4-6 mm)|4+ (6-8mm)]]
   LLPart2:
   LLKey:
   LLShorthand: peedema
-  LLScript:
-
-- LLPart1: no contraindications for HBO
-
-no prior cardiac problems CHF, cardiomyopathy
-
-no lung or pneumothorax problems
-
-no breathing problems or SOB, no COPD
-
-[[Choice=?!history of chemotherapy|No|Yes]]
-
-no Antabuse
-
-no recent sinus problems
-
-no problems clearing ears from altitude changes
-
-hypertension controlled with meds.
-
-no history of seizures
-
-no claustrophobia or anxiety
-
-diabetes is controlled with 3 meds, Hgb A1c 6.4
-
-has dental implants, no recent fillings.
-
-no implanted devices, no pacemakers
-
-has titanium implants in both ankles from prior surgery
-
-no insulin pumps no radiation history
-
-no transdermal patches
-
-no changes in vision, wears glasses, has some cataracts
-
-No need for special positioning.
-
-  LLPart2:
-  LLKey:
-  LLShorthand: hbocontraindications
   LLScript:
