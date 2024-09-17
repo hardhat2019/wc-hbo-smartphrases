@@ -1,0 +1,117 @@
+UHMS Accredited Facility
+
+John Muir Medical Center
+Hyperbaric Medicine Department
+
+Diving & Hyperbaric Medicine Consultation
+
+REASON FOR CONSULTATION:  ***
+REFERRING PHYSICIAN:  ***
+HISTORY OF PRESENT ILLNESS
+
+This is a @AGE@ old  @SEX@ who presents with ***
+
+The patient denies any active chemotherapeutic agents, pneumothorax or decompensated CHF.***
+
+PAST MEDICAL AND SURGICAL HISTORY
+@PMH@
+@PSH@
+
+MEDICATIONS
+The patient takes no medications except as noted below:***
+@EDPTMEDS@
+
+ALLERGIES
+@ALLERGY@
+
+SOCIAL HISTORY
+@SOCH@
+Except for as filed, otherwise noncontributory
+
+FAMILY HISTORY
+@FAMHX@
+Except for as filed, otherwise noncontributory
+
+REVIEW OF SYSTEMS
+Except for as elsewhere noted the complete Hyperbaric review of systems is otherwise negative.
+
+PHYSICAL EXAMINATION
+@VS@
+General: awake, alert and fully oriented in no acute distress***
+Head: normocephalic, atraumatic
+Eyes: No evidence of traumatic injury or foreign body, vision at baseline per their report.***
+ENT: TM's normal bilaterally without evidence of effusion or hemotympanum.
+Neck: Supple, no external signs of trauma
+Chest: no focal tenderness, no external signs of trauma
+Resp: good air exchange throughout without evidence of impairment
+Heart: normal perfusion, pulse and pressure
+Musculo: atraumatic, nontender, all joints with full range of motion***
+Integ:  no significant bruising or cellulitis
+Neuro: alert and fully oriented; grossly normal speech, sensation and motor***
+Psych:  judgement, mood, insight grossly normal.
+
+
+DELETE BELOW IF NO TCOM***
+
+TCOM
+
+
+METHODS:
+With the patient recumbent and the leg horizontal, the skin was cleansed and prepped in the usual manner.  The  TCOM electrodes were calibrated to 45 degrees centigrade and placed with care to avoid areas with marked skin changes or bony prominences.  They were then allowed to equilibrate with the underlying tissue and baseline measurements obtained, expressed in mm Hg.  The patient was furnished a leg elevation challenge to 30 degrees and values obtained again.  Then an oxygen challenge was administered with high flow O2 via facemask and measurements recorded again.
+
+MEASUREMENTS:
+Pulse Oximetry showed @FLOW(10:last)@ saturation on room air.
+
+@FLOW(3041313591:last)@
+
+@FLOW(3041313600:last)@
+@FLOW(3041313609:last)@
+@FLOW(3041313618:last)@
+@FLOW(3041313627:last)@
+@FLOW(3041313636:last)@
+
+PHYSICIAN INTERPRETATION:
+***
+
+
+TCOM INTERPRETATION INFORMATION:
+Transcutaneous oxygen measurement is a non-invasive measurement of the number of oxygen molecules in the skin under the oxygen sensor electrodes. It can be used to determine healing potential or to assess vascular status.
+
+Normal values vary from 50 to 70mmHg, with 30 to 40mmHg considered to be the minimum necessary for wound healing. PtcO2 values are better at predicting failure to heal than likelihood of healing, since healing is dependent on many factors other than tissue oxygen levels. Below 20 mm Hg, fibroblastic function and neutrophilic oxidative
+killing mechanisms cease.
+
+The elevation challenge measures the perfusion reserve of the extremity: a decline in values >10 mmHg suggests a poor reserve.  An increase in values to 100 mmHg or better with sea level oxygen breathing suggests good vascular reserve.
+
+
+DELETE ABOVE IF NO TCOM***
+
+
+DATA
+
+Chest Xray on *** shows:
+
+@WCCMETRICSINITIAL@
+
+RISK DISCUSSION
+
+The patient was informed of risks benefits and alternatives, including oxygen toxicity, fire hazard and barotrauma and {DOES_DOES NOT:18564} wish to proceed.   Also discussed was hyperbaric myopia, which is "nearsightedness" that is caused or worsened during treatment.  Likewise, the risk of worsening of cataracts, or possibly even causing them to appear for the first time is a possible risk of therapy.  This can be easily identified by an opthalmologic examination and easily treated if found.
+
+With respect to fire hazard, the patient was advised of the critical importance of avoidance of any personal electronic or flammable devices or materials within or in the proximity of the chamber.  There are no other contraindications such as chemotherapy, severely reduced ejection fraction, or pulmonary edema.
+
+This patient has the following medical history which makes them HIGHER risk for complications from hyperbaric oxygen therapy:
+***
+
+MEDICAL DECISION MAKING
+***
+
+
+IMPRESSION
+
+@DIAGORD@
+
+
+RECOMMENDATIONS
+
+Initiate {Single Wild Card:50000::"Routine Outpatient","ASAP","Emergent"} HBO treatment at 2.0 ATA for 90 minutes each treatment, 5-6 days each week, with utilization review each 10 treatments to assess progress.
+
+Expected number of treatments: ***
