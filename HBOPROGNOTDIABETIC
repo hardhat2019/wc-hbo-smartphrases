@@ -1,0 +1,29 @@
+Hyperbaric Medicine Progress Note
+
+Patient Name: @NAME@
+Medical Record #: @MRN@
+Date of Birth: @DOB@
+
+ Subjective:
+
+Pt completed treatment number @FLOW(382010::1)@ for @FLOW(382240::2)@ [minutes] {1:26007} [2.0 ATA, 2.4 ATA, per US Navy treatment table 6] with 100% O2 under my direct supervision without complaints or complications.
+
+@HBOTXESTIMATE@
+
+ Objective:
+
+Medications:  Agree with current reconciled Epic medication list.***
+
+@MULTIPLEVITALS@
+
+Vital Signs were {Blank single:19197::"stable","unstable"}.
+
+@WCCMETRICSINITIAL@
+
+ Assessment / Plan:
+
+Impression:  @DIAGORD@
+
+Plan: {plan:22199}
+[follow-up for next treatment, follow-up for next regularly scheduled treatment, follow-up today for next BID treatment, discharge from hyperbaric treatment, Transfer to ED for urgent evaluation]
+@MEMD@
