@@ -1,0 +1,7 @@
+Discussion on safety of Hyperbaric Oxygen with active malignancy or recurrence
+
+Historically, there had been concern that Hyperbaric Oxygen Therapy (HBO) could either promote progression of active malignancy or predispose to higher rates of cancer recurrence in patients in remission. Theoretically HBO increases neoangiogenesis and there was concern it could preferentially promote cancer growth. There is some conflicting data in the literature, however the vast majority of case series and two reviews on the subject demonstrate the safety of HBO in this setting and may actually show BENEFIT in cancer outcomes and a LOWER rate of recurrence.
+
+In 2003, Feldmeier et al (Undersea Hyperb Med 2003; 30(1):1-18) explored this subject and found no more than a neutral effect on tumor growth with many studies showing a negative impact on malignant progression or formation. They noted that angiogenesis has a striking effect on wound healing (commonly seen in HBO), but is less associated with tumor growth. In fact, tumors in a hypoxic environment have a higher rate of metastasis and mortality. In 2006, Daruwalla et al (World Journal Surgery 2006; 30(12): 2112-2131) came to similar conclusions.
+
+Our group feels that the risk of HBO promoting cancer growth is low and frequently treat patients with active malignancy or history of malignancy.
