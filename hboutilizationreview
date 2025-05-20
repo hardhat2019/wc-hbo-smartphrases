@@ -1,0 +1,71 @@
+Hyperbaric Medicine Utilization Review
+
+HISTORY OF PRESENT ILLNESS 
+This is a @AGE@ old @SEX@ who is currently being treated in the Hyperbaric unit for a diagnosis of ***. Today presents for scheduled review of interval improvement in symptoms and utility of continuing further hyperbaric oxygen therapy.
+
+Interval history since last utilization review:
+{No/  **:31982} complications or side effects from hyperbaric therapy
+{No/  **:31982} change in vision
+{No/  **:31982} change in hearing or ear pain or otic barotrauma
+Compliance has been {1:26006}. 
+
+Review of recent medical history and appointments shows {No/  **:31982} relevant changes in medical conditions or test results.
+
+THIS WOUND IS A COMPROMISED FLAP/GRAFT.  TCOMS ARE MEASURED AT TREATMENT 16 AND TREATMENT 36 TO EVALUATE IMPROVEMENT IN PERFUSION:***
+
+TCOM could not be performed at this time due to:  {Single Wild Card:50000::"patient refusal due to sensitive area","unable to perform due to anatomy","dressing cannot be breached.","***"}
+
+@HBOTXESTIMATE@
+
+
+PAST MEDICAL AND SURGICAL HISTORY
+@PMH@
+@PSH@
+
+MEDICATIONS
+@EDPTMEDS@
+
+ALLERGIES
+@ALLERGY@
+
+SOCIAL HISTORY
+@SOCH@
+Except for as filed, otherwise noncontributory
+
+FAMILY HISTORY
+@FAMHX@
+Except for as filed, otherwise noncontributory
+
+ 
+REVIEW OF SYSTEMS 
+Except for as elsewhere noted the complete Hyperbaric review of systems is otherwise negative. 
+
+PHYSICAL EXAMINATION 
+@VS@
+General: awake, alert and fully oriented in no acute distress 
+Head: normocephalic, atraumatic 
+Eyes: No evidence of traumatic injury or foreign body, vision at baseline per their report*** 
+ENT: TM's normal bilaterally without evidence of effusion or hemotympanum*** 
+Neck: Supple, no external signs of trauma 
+Chest: no focal tenderness, no external signs of trauma 
+Resp: good air exchange throughout without evidence of impairment 
+Heart: normal perfusion, pulse and pressure 
+Musculo: atraumatic, nontender, all joints with full range of motion, ***
+Integ: no significant bruising or cellulitis 
+Neuro: alert and fully oriented; grossly normal speech, sensation and motor 
+Psych: judgement, mood, insight grossly normal. 
+GU: ***
+
+MEDICAL DECISION MAKING 
+***
+
+IMPRESSION 
+@DIAGORD@
+
+RECOMMENDATIONS
+
+{Single Wild Card:50000::"Patient has shown substantial interval improvement since last review. Patient should continue Hyperbaric Oxygen Treatment at this time with re-evaluation after next 10 treatments.",
+"Patient has shown minimal interval improvement; however, this is common during initial 10-20 treatments. Patient should continue Hyperbaric Oxygen Treatment at this time, with re-evaluation after next 10 treatments.",
+"Patient has shown little to no improvement since last review, and additional treatment is not recommended at this time.","***"}
+
+Expected total number of treatments required at this point is ***
